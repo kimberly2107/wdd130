@@ -1,12 +1,32 @@
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
 /* Main content */
 main {
     max-width: 840px;
+}
+
+/* Heading */
+h1 {
+    color: #333;
 }
 
 /* Profile image */
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #333;
+    padding: 2px;
+    box-shadow: 0 0 10px gray;
 }
 
 /* Paragraphs */
