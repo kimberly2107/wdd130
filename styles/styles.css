@@ -1,0 +1,38 @@
+/* Main content */
+main {
+    max-width: 840px;
+}
+
+/* Profile image */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Paragraphs */
+p {
+    padding: 0;
+}
+
+/* Zimbabwe section */
+aside {
+    width: 250px;
+    margin: 20px;
+    border: 2px solid #333;
+    padding: 15px;
+    background-color: #eeeeee;
+    color: #222222;
+}
+
+/* Zimbabwe image */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    text-align: center;
+}
