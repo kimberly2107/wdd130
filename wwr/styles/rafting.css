@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #023e8a;
+    --secondary-color: #0077b6;
+    --accent1-color: #03045e;
+    --accent2-color: #caf0f8;
+
+    --heading-font: Georgia, serif;
+    --body-font: Arial, sans-serif;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+/* Page Layout */
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Headings */
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* General Spacing */
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* Social Media */
+.socialmedia a {
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Hero Heading */
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+/* Hero Article */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: var(--accent2-color);
+    opacity: 0.9;
+    padding: 16px;
+}
+
+/* Happy Client Image */
+.hero article img {
+    float: right;
+    width: 125px;
+    margin: 0 0 10px 10px;
+    border: 2px solid var(--primary-color);
+}
+
+/* History and Adventure Sections */
+section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent2-color);
+    padding: 10px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 12px;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+}
