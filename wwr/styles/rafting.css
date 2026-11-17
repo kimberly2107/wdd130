@@ -148,3 +148,7 @@ footer p {
     width: 30px;
     height: 30px;
 }
+
+header nav a:hover {
+    color: var(--secondary-color);
+}
